@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(10, 10, 15);
+    color: white;
+}
+button{
+    border: none;
+    color: white;
+    background-color: rgb(5, 5, 5);
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+    border: 1px solid rgb(0, 119, 255);
+}
+button:hover{
+    background-color: rgb(66, 66, 66);
+}
+#lull{
+    margin: 0 auto;
+    padding: 5em;
+    width: 300px;
+    background-color: rgb(5, 5, 5);
+    text-align: center;
+    border-radius: 10px;
+    scale: 1.5;
+    position: absolute;
+    left: 39%;
+    top: 58%;
+    -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        scale: 1.5;
+    border: 1px solid #0077ff;
+}
+#pfpp{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-size: contain;
+    padding: 45px;
+    background-image: url(assets/Etwas_pfp1_circle.png);
+    z-index: 1;
+    transition: background-image 0.3s ease;
+    width: 200;
+}
+#pfpp:hover{
+    content: none;
+    background-image: url(assets/schatzsuche_pfp1_circle.png);
+    z-index: 1;
+}
