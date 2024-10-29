@@ -45,6 +45,6 @@ button:hover{
 }
 #pfpp:hover{
     content: none;
-    background-image: url(assets/schatzsuche_pfp_circle2.png);
+    background-image: url(assets/schatzsuche_pfp1_circle.png);
     z-index: 1;
 }
